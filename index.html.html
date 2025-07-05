@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index File</title>
+
+    <style>
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 1000px;
+}
+.navbar {
+    background-color:#160b5c;
+    height: 62px;
+    border-radius: 2px;
+    position: fixed;
+    top: 0%;
+    width: 1510px;
+}
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 900;
+}
+.navbar li {
+    list-style-type:none;
+    float:left;
+    margin: 1px 14px;
+    padding: 2px 2px;
+}
+.search {
+    float: right;
+    color: aliceblue;
+    padding: 7px 109px;
+    margin-right: -77px;
+}
+#btn {
+    float: right;
+    padding: 8px 39px;
+    margin-right: 27px;
+    border-radius: 30px;
+}
+.but {
+    float: right;
+}
+#section {
+    background-color:#ffeb3b;
+    height: 237px;
+    width: 168px;
+    border-radius: 45px;
+    margin-left: 80px;
+    box-shadow:#e31e7a 10px 10px;
+}
+#section li {
+    list-style-type:none;
+    float:left;
+    margin: 3px 5px;
+    padding: 1px 0px;
+    font-size: large;
+    color:aqua;
+}
+#section li a {
+    color:#3213ee;
+    text-decoration: none;
+    font-weight: 900;
+}
+.container {
+    display: flex;
+    background-color: lightblue;
+    padding-top: 78px;
+    margin-top: 78px;
+    border: #160b5c;
+    height: 500px;
+}
+.box1 {
+    position: relative;
+    margin-left: 10px;
+    background-color:#61579c;
+    width: 200px;
+    height: 209px;
+    border-radius: 20px;
+    padding-top: 30px;
+    animation-name: box;
+    animation-duration: 4s;
+    box-shadow:#e31e3c 18px 11px;
+}
+.box1 li {
+    font-size: large;
+    font-weight: 900;
+    padding: 1px 0px;
+}
+.box1 ul {
+    margin-left: 53px;
+    padding: 1px 0px;
+}
+.box1 li a {
+    color:#ffeb3b;
+    text-decoration: none;
+}
+@keyframes box {
+    0% {background-color: red; left:0px; top: 0px;}
+    25% {background-color:rgb(18, 18, 2); left:500px; top: 0px;}
+    50% {background-color:blue; left:444px; top: 200px;}
+    75% {background-color:green; left:0px; top: 200px;}
+    100% {background-color: red; left:0px; top: 0px;}
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <ul>
+            <li> <a href="index.html" target="_blank"> Home</a></li>
+            <li> <a href="#about" target="_blank">About</a></li>
+            <li> <a href="#Service" target="_blank">Service</a></li>
+            <div class="but">
+                <button type="button" name="click" id="btn">Search</button>
+            </div>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search">
+            </div>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="box1">
+            <ul>
+                <li><a href="Grammar/Verbs.html" target="_blank">Verbs</a></li>
+                <li><a href="Grammar/Participle.html" target="_blank">Participle</a></li>
+                <li><a href="Grammar/Non-finite.html" target="_blank">Non-finite</a></li>
+                <li><a href="Grammar/Model aux.html" target="_blank">Model</a></li>
+                <li><a href="Grammar/Gerund.html" target="_blank">Gerund</a></li>
+            </ul>
+        </div>
+
+        <div id="section">
+            <ul>
+                <li><a href="Lessons/All_lessons.html" target="_blank">Lesson</a></li>
+                <li><a href="Pronunciation/Pronunciation.html" target="_blank">Pronunciation</a></li>
+                <li><a href="#Blog" target="_blank">Blogs</a></li>
+                <li><a href="#Vocabulary" target="_blank">Vocabulary</a></li>
+                <li><a href="#Practice" target="_blank">Practice</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+</body>
+</html>
